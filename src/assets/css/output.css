@@ -931,6 +931,9 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-11 {
+    margin-top: calc(var(--spacing) * 11);
+  }
   .mt-12\.5 {
     margin-top: calc(var(--spacing) * 12.5);
   }
