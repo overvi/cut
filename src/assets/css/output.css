@@ -3768,6 +3768,11 @@
       left: auto;
     }
   }
+  .ltr\:order-1 {
+    &:where(:dir(ltr), [dir="ltr"], [dir="ltr"] *) {
+      order: 1;
+    }
+  }
   .ltr\:\!hidden {
     &:where(:dir(ltr), [dir="ltr"], [dir="ltr"] *) {
       display: none !important;
