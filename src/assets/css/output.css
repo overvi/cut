@@ -3431,6 +3431,11 @@
       width: 28.125rem !important;
     }
   }
+  .mid\:\!w-\[72\.875rem\] {
+    @media (width >= 62.5rem) {
+      width: 72.875rem !important;
+    }
+  }
   .mid\:\!basis-\[73\%\] {
     @media (width >= 62.5rem) {
       flex-basis: 73% !important;
