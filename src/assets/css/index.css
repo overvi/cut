@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --radius-20: 1.25rem;
+  --radius-35: 1.875rem;
+
+  --breakpoint-mid:62.5rem;
+
+  --color-orange-50: #fff9eb;
+  --color-orange-100: #feeea7;
+  --color-orange-200: #fddc8a;
+  --color-orange-300: #fdc44c;
+  --color-orange-400: #fcb333;
+  --color-orange-500: #f68a0a;
+  --color-orange-600: #da6505;
+  --color-orange-700: #b54408;
+  --color-orange-800: #92350e;
+  --color-orange-900: #782c0f;
+  --color-orange-950: #451403;
+
+  --color-green-50: #f1fcf5;
+  --color-green-100: #dff9ea;
+  --color-green-200: #c1f1d5;
+  --color-green-300: #90e5b5;
+  --color-green-400: #58d08d;
+  --color-green-500: #2fac66;
+  --color-green-600: #239656;
+  --color-green-700: #1f7646;
+  --color-green-800: #1e5d3b;
+  --color-green-900: #1a4d32;
+  --color-green-950: #092a19;
+}
+
+@layer base {
+  @font-face {
+    font-display: "swap";
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/yekan/YekanBakhFaNum-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-display: "swap";
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/yekan/YekanBakhFaNum-SemiBold.woff2") format("woff2");
+  }
+  @font-face {
+    font-display: "swap";
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/yekan/YekanBakhFaNum-Black.woff2") format("woff2");
+  }
+  @font-face {
+    font-display: "swap";
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/yekan/YekanBakhFaNum-Bold.woff2") format("woff2");
+  }
+}
+
+body {
+  font-family: "Yekan";
+}
+
+@utility container-w {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem !important;
+}
+
+@utility rounded-3.5xl {
+  border-radius: 1.875rem;
+}
