@@ -2340,6 +2340,30 @@
       width: fit-content;
     }
   }
+  .\32 xl\:\!text-2xl {
+    @media (width >= 96rem) {
+      font-size: var(--text-2xl) !important;
+      line-height: var(--tw-leading, var(--text-2xl--line-height)) !important;
+    }
+  }
+  .\32 xl\:\!text-3xl {
+    @media (width >= 96rem) {
+      font-size: var(--text-3xl) !important;
+      line-height: var(--tw-leading, var(--text-3xl--line-height)) !important;
+    }
+  }
+  .\32 xl\:text-3xl {
+    @media (width >= 96rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+  .\32 xl\:text-4xl {
+    @media (width >= 96rem) {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
+    }
+  }
   .ltr\:top-0 {
     &:where(:dir(ltr), [dir="ltr"], [dir="ltr"] *) {
       top: calc(var(--spacing) * 0);
