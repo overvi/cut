@@ -2463,6 +2463,13 @@
       }
     }
   }
+  .ltr\:md\:left-5 {
+    &:where(:dir(ltr), [dir="ltr"], [dir="ltr"] *) {
+      @media (width >= 48rem) {
+        left: calc(var(--spacing) * 5);
+      }
+    }
+  }
   .ltr\:md\:translate-x-0 {
     &:where(:dir(ltr), [dir="ltr"], [dir="ltr"] *) {
       @media (width >= 48rem) {
