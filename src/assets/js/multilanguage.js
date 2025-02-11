@@ -14,7 +14,7 @@ const translations = {
     easyAccessDescription:
       "Our services are designed to be easily and quickly accessible to everyone.",
     newLookDescription:
-      "Experience everything you expect from modern services <br/> with us.",
+      "Experience everything you expect from modern services <br class='hidden sm:block'/> with us.",
     highFlexibilityDescription: "Our services seamlessly adapt to your needs.",
     whyMangotravels: `     <p class="text-2xl w-fit me-auto mid:me-0 mid:!ms-auto text-white font-bold">
                         <span class="text-black">Why</span> Mangotravels
@@ -96,7 +96,7 @@ placeholderPhoneNumber : "Enter Your PhoneNumber ..."
     easyAccessDescription:
       "خدمات ما به گونه‌ای طراحی شده‌اند که به راحتی و سریع برای همه قابل استفاده باشند.",
     newLookDescription:
-      "هرآنچه که از سرویس‌ های بروز انتظار دارید را با  <br/>ما تجربه کنید.",
+      "هرآنچه که از سرویس‌ های بروز انتظار دارید را با  <br class='hidden sm:block'/>ما تجربه کنید.",
     highFlexibilityDescription:
       "سرویس‌های ما به‌راحتی با نیازهای شما هماهنگ می‌شوند.",
     whyMangotravels: `     <p class="text-2xl w-fit me-auto mid:me-0 mid:!ms-auto text-white font-bold">
